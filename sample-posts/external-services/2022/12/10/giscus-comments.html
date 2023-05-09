@@ -10,24 +10,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>a post with math | GK  Tejus</title>
+    <title>a post with giscus comments | GK  Tejus</title>
     <meta name="author" content="GK  Tejus">
-    <meta name="description" content="an example of a blog post with some math">
+    <meta name="description" content="an example of a blog post with giscus comments">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
     <!-- OpenGraph -->
     <meta property="og:site_name" content="GK  Tejus">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="GK  Tejus | a post with math">
-    <meta property="og:url" content="https://gktejus.github.io/blog/2015/math/">
-    <meta property="og:description" content="an example of a blog post with some math">
+    <meta property="og:title" content="GK  Tejus | a post with giscus comments">
+    <meta property="og:url" content="https://gktejus.github.io/sample-posts/external-services/2022/12/10/giscus-comments.html">
+    <meta property="og:description" content="an example of a blog post with giscus comments">
     
     <meta property="og:locale" content="en">
 
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="a post with math">
-    <meta name="twitter:description" content="an example of a blog post with some math">
+    <meta name="twitter:title" content="a post with giscus comments">
+    <meta name="twitter:description" content="an example of a blog post with giscus comments">
     
     <meta name="twitter:site" content="@gktejus_">
     <meta name="twitter:creator" content="@gktejus_">
@@ -50,7 +50,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://gktejus.github.io/blog/2015/math/">
+    <link rel="canonical" href="https://gktejus.github.io/sample-posts/external-services/2022/12/10/giscus-comments.html">
     
     <!-- Dark Mode -->
     
@@ -88,10 +88,6 @@
                 <a class="nav-link" href="/">about</a>
               </li>
               
-              <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
-              </li>
 
               <!-- Other pages -->
               <li class="nav-item ">
@@ -129,44 +125,51 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">a post with math</h1>
-    <p class="post-meta">October 20, 2015</p>
+    <h1 class="post-title">a post with giscus comments</h1>
+    <p class="post-meta">December 10, 2022</p>
     <p class="post-tags">
-      <a href="/blog/2015"> <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-        ·  
-        <a href="/blog/tag/formatting">
-          <i class="fas fa-hashtag fa-sm"></i> formatting</a>  
-          <a href="/blog/tag/math">
-          <i class="fas fa-hashtag fa-sm"></i> math</a>  
-          
+      <a href="/blog/2022"> <i class="fas fa-calendar fa-sm"></i> 2022 </a>
         ·  
         <a href="/blog/category/sample-posts">
           <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
+          <a href="/blog/category/external-services">
+          <i class="fas fa-tag fa-sm"></i> external-services</a>  
           
 
     </p>
   </header>
 
   <article class="post-content">
-    <p>This theme supports rendering beautiful math in inline and display modes using <a href="https://www.mathjax.org/" rel="external nofollow noopener" target="_blank">MathJax 3</a> engine. You just need to surround your math expression with <code class="language-plaintext highlighter-rouge">$$</code>, like <code class="language-plaintext highlighter-rouge">$$ E = mc^2 $$</code>. If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).</p>
+    <p>This post shows how to add GISCUS comments.</p>
 
-<p>To use display mode, again surround your expression with <code class="language-plaintext highlighter-rouge">$$</code> and place it as a separate paragraph. Here is an example:</p>
+  </article><div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
+  <script>
+    let giscusTheme = localStorage.getItem("theme");
+    let giscusAttributes = {
+        "src": "https://giscus.app/client.js",
+        "data-repo": "alshedivat/al-folio",
+        "data-repo-id": "MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==",
+        "data-category": "Comments",
+        "data-category-id": "DIC_kwDOA5PmLc4CTBt6",
+        "data-mapping": "title",
+        "data-strict": "1",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "bottom",
+        "data-theme": giscusTheme,
+        "data-lang": "en",
+        "crossorigin": "anonymous",
+        "async": "",
+    };
 
-\[\sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2\]
 
-<p>You can also use <code class="language-plaintext highlighter-rouge">\begin{equation}...\end{equation}</code> instead of <code class="language-plaintext highlighter-rouge">$$</code> for display mode math.
-MathJax will automatically number equations:</p>
-
-<p>\begin{equation}
-\label{eq:cauchy-schwarz}
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-\end{equation}</p>
-
-<p>and by adding <code class="language-plaintext highlighter-rouge">\label{...}</code> inside the equation environment, we can now refer to the equation using <code class="language-plaintext highlighter-rouge">\eqref</code>.</p>
-
-<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html" rel="external nofollow noopener" target="_blank">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php" rel="external nofollow noopener" target="_blank">on par with KaTeX</a>.</p>
-
-  </article>
+    let giscusScript = document.createElement("script");
+    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+    document.getElementById("giscus_thread").appendChild(giscusScript);
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a>
+</noscript>
+</div>
 </div>
 
     </div>
